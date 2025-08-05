@@ -86,7 +86,7 @@ export default function App() {
     setIsLoading(true);
 
     // IMPORTANT: Replace with your backend's URL (local or deployed)
-    const backendUrl = 'http://localhost:3000/api/check-email';
+    const backendUrl = 'https://email-checker-ai-b7xr.onrender.com';
 
     try {
       const response = await fetch(backendUrl, {
